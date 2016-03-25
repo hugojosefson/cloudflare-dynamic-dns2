@@ -6,7 +6,7 @@
     "dns",
     "dyndns"
   ],
-  "version": "2.0.1",
+  "version": "2.0.2",
   "author": "Michael Kourlas <michael@kourlas.net>",
   "main": "./lib/index.js",
   "repository": "hugojosefson/cloudflare-dynamic-dns2",
