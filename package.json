@@ -1,5 +1,5 @@
 {
-  "name": "cloudflare-dynamic-dns",
+  "name": "cloudflare-dynamic-dns2",
   "description": "Updates a Cloudflare DNS address record with an IP address",
   "keywords": [
     "cloudflare",

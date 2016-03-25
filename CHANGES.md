@@ -1,3 +1,8 @@
+## 2.0.1 ##
+
+* **Misc:** Publish as new package on npm, as agreed in [michaelkourlas/node-cloudflare-dynamic-dns#2](https://github.com/michaelkourlas/node-cloudflare-dynamic-dns/pull/2#issuecomment-201272249).
+* **Misc:** Rename package to `cloudflare-dynamic-dns2`.
+
 ## 2.0.0 ##
 
 * **Feature:** Supports updating A record for the apex domain (no www), using `"@"` as hostname.
