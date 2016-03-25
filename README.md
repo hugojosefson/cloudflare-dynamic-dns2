@@ -8,7 +8,7 @@ IP address. See [CHANGES.md](CHANGES.md) for difference from original, and reaso
 ## Installation ##
 
 ```bash
-npm install cloudflare-dynamic-dns2
+npm install --save cloudflare-dynamic-dns2
 ```
 
 ## Usage ##
