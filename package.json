@@ -6,11 +6,10 @@
     "dns",
     "dyndns"
   ],
-  "homepage": "http://www.kourlas.net",
   "version": "2.0.0",
   "author": "Michael Kourlas <michael@kourlas.net>",
   "main": "./lib/cloudflare-dynamic-dns.js",
-  "repository": "michaelkourlas/cloudflare-dynamic-dns",
+  "repository": "hugojosefson/cloudflare-dynamic-dns",
   "scripts": {
     "test": "npm run jshint",
     "jshint": "jshint lib/* example/*"
