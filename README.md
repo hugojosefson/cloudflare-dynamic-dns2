@@ -1,19 +1,19 @@
-# cloudflare-dynamic-dns #
+# cloudflare-dynamic-dns2 #
 
 ## Overview ##
 
-`cloudflare-dynamic-dns` is a Node.js module that updates a CloudFlare DNS address record with an
-IP address.
+`cloudflare-dynamic-dns2` is a Node.js module that updates a CloudFlare DNS address record with an
+IP address. See [CHANGES.md](CHANGES.md) for difference from original, and reason for this fork.
 
 ## Installation ##
 
 ```bash
-npm install cloudflare-dynamic-dns
+npm install cloudflare-dynamic-dns2
 ```
 
 ## Usage ##
 
-The `cloudflare-dynamic-dns` module is a function which takes one argument, an options object, with
+The `cloudflare-dynamic-dns2` module is a function which takes one argument, an options object, with
 the following properties:
 
 * `email` - the email associated with your CloudFlare account (string, mandatory)
@@ -29,11 +29,11 @@ successful, or rejects with an `Error` if it was not.
 
 ## Example ##
 
-The following example illustrates the basic usage of `cloudflare-dynamic-dns`, updating the A
+The following example illustrates the basic usage of `cloudflare-dynamic-dns2`, updating the A
 record for `boo.example.com`:
 
 ```js
-var cloudflareddns = require("cloudflare-dynamic-dns");
+var cloudflareddns = require("cloudflare-dynamic-dns2");
 
 // Use external IP address of current machine
 cloudflareddns({
@@ -53,5 +53,5 @@ cloudflareddns({
 
 ## License ##
 
-`cloudflare-dynamic-dns` is licensed under the [MIT license](http://opensource.org/licenses/MIT). Please see the
+`cloudflare-dynamic-dns2` is licensed under the [MIT license](http://opensource.org/licenses/MIT). Please see the
 `LICENSE.md` file for more information.

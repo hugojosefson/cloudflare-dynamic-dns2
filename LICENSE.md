@@ -1,4 +1,4 @@
-cloudflare-dynamic-dns is licensed under the MIT license:
+cloudflare-dynamic-dns2 is licensed under the MIT license:
 
 > Copyright © 2014 Michael Kourlas
 >

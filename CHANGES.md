@@ -1,3 +1,7 @@
+## 2.0.2 ##
+
+* **Fix:** Rename remaining instances of `cloudflare-dynamic-dns` to `cloudflare-dynamic-dns2`.
+
 ## 2.0.1 ##
 
 * **Misc:** Publish as new package on npm, as agreed in [michaelkourlas/node-cloudflare-dynamic-dns#2](https://github.com/michaelkourlas/node-cloudflare-dynamic-dns/pull/2#issuecomment-201272249).

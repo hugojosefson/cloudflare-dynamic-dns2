@@ -1,6 +1,6 @@
 "use strict";
 /**
- * cloudflare-dynamic-dns
+ * cloudflare-dynamic-dns2
  * Copyright © 2014 Michael Kourlas
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
@@ -17,7 +17,7 @@
  * OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-var cloudflareddns = require("../lib/cloudflare-dynamic-dns");
+var cloudflareddns = require("../lib");
 
 // Use external IP address of current machine
 cloudflareddns({
