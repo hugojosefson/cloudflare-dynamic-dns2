@@ -1,28 +1,31 @@
 {
   "name": "cloudflare-dynamic-dns2",
+  "version": "2.0.2",
   "description": "Updates a Cloudflare DNS address record with an IP address",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint *.js lib example"
+  },
+  "repository": "hugojosefson/cloudflare-dynamic-dns2",
+  "author": "Michael Kourlas <michael@kourlas.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugojosefson/cloudflare-dynamic-dns2/issues"
+  },
   "keywords": [
     "cloudflare",
     "dns",
     "dyndns"
   ],
-  "version": "2.0.2",
-  "author": "Michael Kourlas <michael@kourlas.net>",
-  "main": "./lib/index.js",
-  "repository": "hugojosefson/cloudflare-dynamic-dns2",
-  "scripts": {
-    "test": "npm run jshint",
-    "jshint": "jshint lib/* example/*"
-  },
-  "engines": {
-    "node": ">=0.12"
-  },
-  "license": "MIT",
   "dependencies": {
     "lodash": "^4.2.1",
     "request-promise": "^2.0.0"
   },
   "devDependencies": {
-    "jshint": "^2.9.1"
+    "eslint": "^3.8.1"
+  },
+  "engines": {
+    "node": ">=6"
   }
 }

@@ -1,4 +1,3 @@
-"use strict";
 /**
  * cloudflare-dynamic-dns2
  * Copyright © 2014 Michael Kourlas
@@ -17,17 +16,17 @@
  * OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-var cloudflareddns = require("../lib");
+const cloudflareddns = require('../lib');
 
 // Use external IP address of current machine
 cloudflareddns({
-    email: "jsmith@example.com",
-    apiToken: "abcde12235",
-    domain: "example.com",
-    subdomain: "boo"
+    email: 'jsmith@example.com',
+    apiToken: 'abcde12235',
+    domain: 'example.com',
+    subdomain: 'boo'
 }).then(
     function (ip) {
-        console.log("Updated boo.example.com to " + ip);
+        console.log('Updated boo.example.com to ' + ip);
     },
     function (reason) {
         console.error(reason);
@@ -36,14 +35,14 @@ cloudflareddns({
 
 // Manually specify IP address
 cloudflareddns({
-    email: "jsmith@example.com",
-    apiToken: "abcde12235",
-    domain: "example.com",
-    subdomain: "boo",
-    ip: "203.0.113.0"
+    email: 'jsmith@example.com',
+    apiToken: 'abcde12235',
+    domain: 'example.com',
+    subdomain: 'boo',
+    ip: '203.0.113.0'
 }).then(
     function (ip) {
-        console.log("Updated boo.example.com to " + ip);
+        console.log('Updated boo.example.com to ' + ip);
     },
     function (reason) {
         console.error(reason);

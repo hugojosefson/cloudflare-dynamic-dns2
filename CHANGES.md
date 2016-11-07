@@ -1,3 +1,7 @@
+## 3.0.0 ##
+
+* **API Breaking change:** Require Node.js 6.
+
 ## 2.0.2 ##
 
 * **Fix:** Rename remaining instances of `cloudflare-dynamic-dns` to `cloudflare-dynamic-dns2`.
