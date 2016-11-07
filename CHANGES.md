@@ -1,6 +1,9 @@
 ## 3.0.0 ##
 
+* **Misc:** Use Cloudflare API v4.
+* **API Breaking change:** Rename config option `apiToken` to `key`.
 * **API Breaking change:** Require Node.js 6.
+* **Feature:** Add cli command `update-cloudflare-dns`.
 
 ## 2.0.2 ##
 

@@ -21,7 +21,7 @@ const cloudflareddns = require('../lib');
 // Use external IP address of current machine
 cloudflareddns({
     email: 'jsmith@example.com',
-    apiToken: 'abcde12235',
+    key: 'abcde12235',
     domain: 'example.com',
     subdomain: 'boo'
 }).then(
@@ -36,7 +36,7 @@ cloudflareddns({
 // Manually specify IP address
 cloudflareddns({
     email: 'jsmith@example.com',
-    apiToken: 'abcde12235',
+    key: 'abcde12235',
     domain: 'example.com',
     subdomain: 'boo',
     ip: '203.0.113.0'
