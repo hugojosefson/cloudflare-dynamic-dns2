@@ -70,21 +70,17 @@ The following example illustrates the basic usage of `cloudflare-dynamic-dns2`, 
 record for `boo.example.com`:
 
 ```js
-var cloudflareddns = require("cloudflare-dynamic-dns2");
+const cloudflareddns = require('cloudflare-dynamic-dns2');
 
 // Use external IP address of current machine
 cloudflareddns({
-    email: "jsmith@example.com",
-    key: "abcde12235",
-    domain: "example.com",
-    subdomain: "boo"
+    email: 'jsmith@example.com',
+    key: 'abcde12235',
+    domain: 'example.com',
+    subdomain: 'boo'
 }).then(
-    function (ip) {
-        console.log("Updated boo.example.com to " + ip);
-    },
-    function (reason) {
-        console.error(reason);
-    }
+    ip => console.log(`Updated boo.example.com to ${ip}`),
+    reason => console.error(reason)
 );
 ```
 

@@ -25,12 +25,8 @@ cloudflareddns({
     domain: 'example.com',
     subdomain: 'boo'
 }).then(
-    function (ip) {
-        console.log('Updated boo.example.com to ' + ip);
-    },
-    function (reason) {
-        console.error(reason);
-    }
+    ip => console.log(`Updated boo.example.com to ${ip}`),
+    reason => console.error(reason)
 );
 
 // Manually specify IP address
@@ -41,10 +37,6 @@ cloudflareddns({
     subdomain: 'boo',
     ip: '203.0.113.0'
 }).then(
-    function (ip) {
-        console.log('Updated boo.example.com to ' + ip);
-    },
-    function (reason) {
-        console.error(reason);
-    }
+    ip => console.log(`Updated boo.example.com to ${ip}`),
+    reason => console.error(reason)
 );
