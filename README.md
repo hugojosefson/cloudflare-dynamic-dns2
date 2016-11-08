@@ -15,7 +15,7 @@ npm install -g cloudflare-dynamic-dns2
 
 ### Usage via cli ###
 
-Create a `/etc/cloudflare/config.file` for example like this:
+Create a `/etc/cloudflare/config.json` for example like this:
 
 ```json
 {
