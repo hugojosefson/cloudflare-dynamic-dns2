@@ -1,3 +1,7 @@
+## 3.0.1 ##
+
+* **Misc:** Fix `/etc/cloudflare/config.json` filename in README.
+
 ## 3.0.0 ##
 
 * **Misc:** Use Cloudflare API v4.
