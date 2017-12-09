@@ -22,13 +22,13 @@
     "dyndns"
   ],
   "dependencies": {
-    "cloudflare": "^1.0.5",
+    "cloudflare": "^2.2.0",
     "lodash": "^4.2.1",
     "object-path-immutable": "^0.5.0",
-    "request-promise": "^2.0.0"
+    "request-promise": "^4.2.2"
   },
   "devDependencies": {
-    "eslint": "^3.8.1"
+    "eslint": "^4.13.0"
   },
   "engines": {
     "node": ">=6"
