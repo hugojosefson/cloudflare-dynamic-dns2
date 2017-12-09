@@ -1,5 +1,7 @@
 # cloudflare-dynamic-dns2 #
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hugojosefson/cloudflare-dynamic-dns2.svg)](https://greenkeeper.io/)
+
 ## Overview ##
 
 `cloudflare-dynamic-dns2` is a Node.js module that updates a Cloudflare DNS address record with an
